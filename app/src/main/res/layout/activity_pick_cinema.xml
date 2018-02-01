@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="true">
+
+    <com.vbazh.movies.widgets.CustomImageView
+        android:id="@+id/poster"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/blade_runner_poster" />
+
+</RelativeLayout>
